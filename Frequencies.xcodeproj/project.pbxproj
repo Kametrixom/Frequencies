@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8EBA66B1B0BB28F00DC0549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EBA66A1B0BB28F00DC0549 /* AppDelegate.swift */; };
+		A8EBA66D1B0BB28F00DC0549 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EBA66C1B0BB28F00DC0549 /* ViewController.swift */; };
+		A8EBA66F1B0BB28F00DC0549 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EBA66E1B0BB28F00DC0549 /* Images.xcassets */; };
+		A8EBA6721B0BB28F00DC0549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EBA6701B0BB28F00DC0549 /* Main.storyboard */; };
+		A8EBA67E1B0BB28F00DC0549 /* FrequenciesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EBA67D1B0BB28F00DC0549 /* FrequenciesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8EBA6781B0BB28F00DC0549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8EBA65D1B0BB28F00DC0549 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8EBA6641B0BB28F00DC0549;
+			remoteInfo = Frequencies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8EBA6651B0BB28F00DC0549 /* Frequencies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frequencies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8EBA6691B0BB28F00DC0549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8EBA66A1B0BB28F00DC0549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8EBA66C1B0BB28F00DC0549 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8EBA66E1B0BB28F00DC0549 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8EBA6711B0BB28F00DC0549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8EBA6771B0BB28F00DC0549 /* FrequenciesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrequenciesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8EBA67C1B0BB28F00DC0549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8EBA67D1B0BB28F00DC0549 /* FrequenciesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequenciesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8EBA6621B0BB28F00DC0549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8EBA6741B0BB28F00DC0549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8EBA65C1B0BB28F00DC0549 = {
+			isa = PBXGroup;
+			children = (
+				A8EBA6671B0BB28F00DC0549 /* Frequencies */,
+				A8EBA67A1B0BB28F00DC0549 /* FrequenciesTests */,
+				A8EBA6661B0BB28F00DC0549 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8EBA6661B0BB28F00DC0549 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8EBA6651B0BB28F00DC0549 /* Frequencies.app */,
+				A8EBA6771B0BB28F00DC0549 /* FrequenciesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8EBA6671B0BB28F00DC0549 /* Frequencies */ = {
+			isa = PBXGroup;
+			children = (
+				A8EBA66A1B0BB28F00DC0549 /* AppDelegate.swift */,
+				A8EBA66C1B0BB28F00DC0549 /* ViewController.swift */,
+				A8EBA66E1B0BB28F00DC0549 /* Images.xcassets */,
+				A8EBA6701B0BB28F00DC0549 /* Main.storyboard */,
+				A8EBA6681B0BB28F00DC0549 /* Supporting Files */,
+			);
+			path = Frequencies;
+			sourceTree = "<group>";
+		};
+		A8EBA6681B0BB28F00DC0549 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8EBA6691B0BB28F00DC0549 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8EBA67A1B0BB28F00DC0549 /* FrequenciesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8EBA67D1B0BB28F00DC0549 /* FrequenciesTests.swift */,
+				A8EBA67B1B0BB28F00DC0549 /* Supporting Files */,
+			);
+			path = FrequenciesTests;
+			sourceTree = "<group>";
+		};
+		A8EBA67B1B0BB28F00DC0549 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8EBA67C1B0BB28F00DC0549 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8EBA6641B0BB28F00DC0549 /* Frequencies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8EBA6811B0BB28F00DC0549 /* Build configuration list for PBXNativeTarget "Frequencies" */;
+			buildPhases = (
+				A8EBA6611B0BB28F00DC0549 /* Sources */,
+				A8EBA6621B0BB28F00DC0549 /* Frameworks */,
+				A8EBA6631B0BB28F00DC0549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Frequencies;
+			productName = Frequencies;
+			productReference = A8EBA6651B0BB28F00DC0549 /* Frequencies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8EBA6761B0BB28F00DC0549 /* FrequenciesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8EBA6841B0BB28F00DC0549 /* Build configuration list for PBXNativeTarget "FrequenciesTests" */;
+			buildPhases = (
+				A8EBA6731B0BB28F00DC0549 /* Sources */,
+				A8EBA6741B0BB28F00DC0549 /* Frameworks */,
+				A8EBA6751B0BB28F00DC0549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8EBA6791B0BB28F00DC0549 /* PBXTargetDependency */,
+			);
+			name = FrequenciesTests;
+			productName = FrequenciesTests;
+			productReference = A8EBA6771B0BB28F00DC0549 /* FrequenciesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8EBA65D1B0BB28F00DC0549 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Silvan Mosberger";
+				TargetAttributes = {
+					A8EBA6641B0BB28F00DC0549 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A8EBA6761B0BB28F00DC0549 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A8EBA6641B0BB28F00DC0549;
+					};
+				};
+			};
+			buildConfigurationList = A8EBA6601B0BB28F00DC0549 /* Build configuration list for PBXProject "Frequencies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8EBA65C1B0BB28F00DC0549;
+			productRefGroup = A8EBA6661B0BB28F00DC0549 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8EBA6641B0BB28F00DC0549 /* Frequencies */,
+				A8EBA6761B0BB28F00DC0549 /* FrequenciesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8EBA6631B0BB28F00DC0549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8EBA66F1B0BB28F00DC0549 /* Images.xcassets in Resources */,
+				A8EBA6721B0BB28F00DC0549 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8EBA6751B0BB28F00DC0549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8EBA6611B0BB28F00DC0549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8EBA66D1B0BB28F00DC0549 /* ViewController.swift in Sources */,
+				A8EBA66B1B0BB28F00DC0549 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8EBA6731B0BB28F00DC0549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8EBA67E1B0BB28F00DC0549 /* FrequenciesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8EBA6791B0BB28F00DC0549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8EBA6641B0BB28F00DC0549 /* Frequencies */;
+			targetProxy = A8EBA6781B0BB28F00DC0549 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8EBA6701B0BB28F00DC0549 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8EBA6711B0BB28F00DC0549 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8EBA67F1B0BB28F00DC0549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8EBA6801B0BB28F00DC0549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A8EBA6821B0BB28F00DC0549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Frequencies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kametrixom.tikara.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8EBA6831B0BB28F00DC0549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Frequencies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kametrixom.tikara.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A8EBA6851B0BB28F00DC0549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FrequenciesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kametrixom.tikara.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frequencies.app/Contents/MacOS/Frequencies";
+			};
+			name = Debug;
+		};
+		A8EBA6861B0BB28F00DC0549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FrequenciesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kametrixom.tikara.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frequencies.app/Contents/MacOS/Frequencies";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8EBA6601B0BB28F00DC0549 /* Build configuration list for PBXProject "Frequencies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EBA67F1B0BB28F00DC0549 /* Debug */,
+				A8EBA6801B0BB28F00DC0549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8EBA6811B0BB28F00DC0549 /* Build configuration list for PBXNativeTarget "Frequencies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EBA6821B0BB28F00DC0549 /* Debug */,
+				A8EBA6831B0BB28F00DC0549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8EBA6841B0BB28F00DC0549 /* Build configuration list for PBXNativeTarget "FrequenciesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EBA6851B0BB28F00DC0549 /* Debug */,
+				A8EBA6861B0BB28F00DC0549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8EBA65D1B0BB28F00DC0549 /* Project object */;
+}
